@@ -1,0 +1,13 @@
+<div class="card-outer">
+  <div class="card card-chart">
+    <div class="card-header">
+      <h5 class="card-category">{{title}}</h5>
+      <h3 class="card-title">
+        <fa-icon *ngIf="myIcon!='none'" [icon]="myIcon" [ngStyle]="{ 'color': iconColor }"></fa-icon> {{subTitle}}
+      </h3>
+    </div>
+    <div class="card-body">
+      <div class="chart-area"><canvas #canvas></canvas></div>
+    </div>
+  </div>
+</div>

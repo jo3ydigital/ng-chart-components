@@ -1,0 +1,16 @@
+[{
+  "type": "bar",
+  "title": "Daily Sales",
+  "icon": "faBell",
+  "iconColor": "#1f8ef1",
+  "subtitle": "$23,700",
+  "colors": ["29", "140", "248"],
+  "colorsAddColorStop": "false",
+  "borderColor": "#1f8ef1",
+  "hoverColor": "rgba(31,142,241, 1)",
+  "gridLinesColor": "rgba(29,140,248,0.1)",
+  "min": "45",
+  "max": "100",
+  "labels": ["USA", "GER", "AUS", "UK", "RO", "BR"],
+  "chartData": ["85", "100", "50", "80", "100", "45"]
+}]

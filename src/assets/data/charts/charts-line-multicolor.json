@@ -1,0 +1,19 @@
+[{
+  "title": "Total Shipments",
+  "icon": "faRocket",
+  "iconColor": "#FF9900",
+  "subtitle": "Performance",
+  "colors": ["0", "214", "180"],
+  "colorsAddColorStop": "false",
+  "borderColor": "#1F8EF1",
+  "borderDash": [],
+  "pointBackgroundColor": "#ff9900",
+  "hoverColor": "rgba(233,32,16, 1)",
+  "gridLinesColor": "rgba(31,142,241, 0.1)",
+  "displayGridLines_x": "false",
+  "displayGridLines_y": "false",
+  "min": "0",
+  "max": "100",
+  "labels": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"],
+  "chartData": ["60", "80", "65", "130", "80", "105", "90", "130", "70", "115", "60", "130"]
+}]

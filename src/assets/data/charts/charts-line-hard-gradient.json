@@ -1,0 +1,19 @@
+[{
+  "title": "Total Shipments",
+  "icon": "faBell",
+  "iconColor": "#ec250d",
+  "subtitle": "Performance",
+  "colors": ["233", "32", "16"],
+  "colorsAddColorStop": "false",
+  "borderColor": "#ec250d",
+  "borderDash": [],
+  "pointBackgroundColor": "#E92010",
+  "hoverColor": "rgba(233,32,16, 1)",
+  "gridLinesColor": "rgba(233,32,16, 0.1)",
+  "displayGridLines_x": "false",
+  "displayGridLines_y": "true",
+  "min": "0",
+  "max": "100",
+  "labels": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"],
+  "chartData": ["60", "80", "65", "130", "80", "105", "90", "130", "70", "115", "60", "130"]
+}]

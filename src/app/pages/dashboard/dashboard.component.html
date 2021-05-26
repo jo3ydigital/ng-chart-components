@@ -1,0 +1,73 @@
+<div class="grid-container">
+  <div class="grid-inner-bg"></div>
+  
+  <header class="header">
+    <app-topnav></app-topnav>
+  </header>
+
+  <main class="main">
+    <div>
+      <div class="component-heading">MULTI-COLORED LINE CHART w/soft gradient & vert grid lines</div>
+      <app-line-chart [lc_data]="lc_data"></app-line-chart>
+    </div>
+
+    <!-- LINE CHARTS -->
+    <div class="col-3">
+      <div>
+        <div class="component-heading">STANDARD LINE CHART w/hard gradient & horizontal grid lines</div>
+        <app-line-chart [lc_data]="lc_hard_gradient_data"></app-line-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">DASHED LINE CHART w/soft gradient & full grid lines</div>
+        <app-line-chart [lc_data]="lc_dashed_data"></app-line-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">MULTI-COLORED LINE CHART w/hard gradient & no grid lines</div>
+        <app-line-chart [lc_data]="lc_multicolored_data"></app-line-chart>
+      </div>
+    </div>
+
+    <!-- CIRCULAR CHARTS -->
+    <div class="col-3">
+      <div>
+        <div class="component-heading">DOUGHNUT CHART w/hard gradient</div>
+        <app-doughnut-chart [dc_data]="dc_data"></app-doughnut-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">PIE CHART w/hard gradient</div>
+        <app-pie-chart [dc_data]="pc_data"></app-pie-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">POLAR AREA CHART w/hard gradient</div>
+        <app-polar-area-chart [pa_data]="pac_data"></app-polar-area-chart>
+      </div>
+    </div>
+
+     <!-- BAR CHARTS -->
+     <div class="col-3">
+      <div>
+        <div class="component-heading">HORIZONTAL BAR CHART w/soft gradient</div>
+        <app-bar-chart [bc_data]="bc_data"></app-bar-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">HORIZONTAL BAR CHART w/hard gradient</div>
+        <app-bar-chart [bc_data]="bc_data2"></app-bar-chart>
+      </div>
+
+      <div>
+        <div class="component-heading">VERTICAL BAR CHART w/soft gradient</div>
+        <app-bar-chart [bc_data]="bch_Data"></app-bar-chart>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <app-footer></app-footer>
+    </div>
+
+  </main>
+</div>

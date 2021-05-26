@@ -1,0 +1,16 @@
+[{
+  "type": "horizontalBar",
+  "title": "Monthly Sales",
+  "icon": "faTruck",
+  "iconColor": "#00D6B4",
+  "subtitle": "$57,500",
+  "colors": ["0", "214", "180"],
+  "colorsAddColorStop": "false",
+  "borderColor": "#00D6B4",
+  "hoverColor": "rgba(0,214,180, 1)",
+  "gridLinesColor": "rgba(0,214,180,0.1)",
+  "min": "0",
+  "max": "100",
+  "labels": ["USA", "GER", "AUS", "UK", "RO", "BR"],
+  "chartData": ["53", "38", "64", "80", "100", "45"]
+}]

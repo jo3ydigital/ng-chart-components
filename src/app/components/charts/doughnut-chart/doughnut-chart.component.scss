@@ -1,0 +1,29 @@
+h5 {
+  color: #8F8E88;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+h3 {
+  color: #32325d;
+  line-height: 1.4em;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+
+  fa-icon { 
+    font-size: 16px;
+    display: inline;
+    margin: 2px 10px 0 0;
+    color: transparent;
+  }
+}
+
+.card .card-header .card-title {
+  color: #fff;
+  font-weight: 100;
+}
+
+.chart-area {
+  padding: 0 0 10px 0;
+  margin-top: -25px;
+}
