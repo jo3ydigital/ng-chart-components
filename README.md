@@ -1,17 +1,21 @@
-## SETUP
+# SETUP
 Once you clone or download the zip for this repo, run this command to get the dependencies required:
+
 npm install --save-dev
 
 If you get an error regarding the charts, you can try to installing the dependencies manually like this:
+
 npm install @types/chart.js@2.9.31 --save-dev
+
 npm install chart.js@2.9.4 --save-dev
 
 If you're going to run a build, make sure you change the `environment.prod` file to suit your needs.
 
-You can get more info about this project on my code blog: (https://joeydigital.net/code/angular/post?id=193)
-You can view the demo for this project: (https://joeydigital.net/examples/charts/) Have fun!
+View the [demo](https://joeydigital.net/examples/charts/)
 
-# Charts
+You can get more info about this project on [my code blog](https://joeydigital.net/code/angular/post?id=193) Have fun!
+
+## Charts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
