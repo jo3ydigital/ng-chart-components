@@ -3,17 +3,24 @@ Once you clone or download the zip for this repo, run this command to get the de
 
 npm install --save-dev
 
+
+
 If you get an error regarding the charts, you can try to installing the dependencies manually like this:
 
 npm install @types/chart.js@2.9.31 --save-dev
 
 npm install chart.js@2.9.4 --save-dev
 
+
+
 If you're going to run a build, make sure you change the `environment.prod` file to suit your needs.
 
-View the [demo](https://joeydigital.net/examples/charts/)
 
-You can get more info about this project on [my code blog](https://joeydigital.net/code/angular/post?id=193) Have fun!
+View the [DEMO](https://joeydigital.net/examples/charts/)
+
+You can get more info about this project on [my code blog](https://joeydigital.net/code/angular/post?id=193)
+
+Have fun!
 
 ## Charts
 
